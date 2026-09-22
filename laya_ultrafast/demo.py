@@ -1,5 +1,10 @@
 """Loopback-only inspector for the browser agent (local Laya or hosted Jev decisions)."""
 
+import utils.net
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import atexit
 import json
 import os
